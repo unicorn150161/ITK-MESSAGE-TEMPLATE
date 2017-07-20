@@ -85,4 +85,4 @@ Return all Practitioner resources with a GP Code of G8133438, the format of the 
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/742a6c3536c240a3a75c4dd57517d2c9.js"></script>
+

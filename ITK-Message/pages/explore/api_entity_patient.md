@@ -179,4 +179,4 @@ Return all Patient resources with a NHS Number 9876543210, the format of the res
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/93fcc2d0568c92477bafa1fd7ba753f1.js"></script>
+

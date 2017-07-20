@@ -89,4 +89,4 @@ Return all Procedure resources for Patient with NHS Number of 9876543210, the fo
 
 #### 3.2.2. Http Body ###
 
-<script src="https://gist.github.com/KevinMayfield/767fb7ad59e68d5c94aaf6163993fc11.js"></script>
+

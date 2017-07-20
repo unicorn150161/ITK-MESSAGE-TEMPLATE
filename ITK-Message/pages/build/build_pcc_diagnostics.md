@@ -31,7 +31,7 @@ GET [baseUrl]/DiagnosticReport?patient=32898
 
 Which returns the following response
 
-<script src="https://gist.github.com/KevinMayfield/f0fabda1a3464cdc940ca29b61cda41e.js"></script>
+
 
 The first report is from a radiology system and contains a textual description of the report and the other is a pathology report.
 
@@ -45,7 +45,7 @@ GET [baseUrl]/DiagnosticReport?patient=32898
 
 Which returns the following response
 
-<script src="https://gist.github.com/KevinMayfield/30b192d3dc590ade1e4b21a840ad7eb2.js"></script>
+
 
 This may result in a large number of calls to the Observation API. Their is not a direct way of returning Observations related to the DiagnosticReport but it is possible to search on date ranges and category of Observation. So we could search for Observations with a laboratory category for that patient.
 
@@ -70,4 +70,4 @@ GET [baseUrl]/DiagnosticOrder?patient=32898
 
 Which results in
 
-<script src="https://gist.github.com/KevinMayfield/0d227ba79b2edec0dd0de36042885071.js"></script>
+

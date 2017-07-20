@@ -76,4 +76,4 @@ Return all Organization resources with a ODS Code of C81010, the format of the r
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/db3d55a9087f924fc712a89c872d33f1.js"></script>
+

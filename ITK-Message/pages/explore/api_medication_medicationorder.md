@@ -98,4 +98,4 @@ Return all MedciationOrder resources for Patient with a NHS Number of 9876543210
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/794cc83ac2497bc65d26004cb250fb51.js"></script>
+

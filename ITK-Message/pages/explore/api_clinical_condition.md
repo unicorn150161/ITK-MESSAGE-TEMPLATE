@@ -99,4 +99,4 @@ Return all Condition resources for Patient with a NHS Number of 9876543210, the 
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/4ecacc1d28bc22efbf630119207c70c0.js"></script>
+

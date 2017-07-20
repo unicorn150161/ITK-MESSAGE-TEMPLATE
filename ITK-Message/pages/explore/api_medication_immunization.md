@@ -96,4 +96,4 @@ Return all Immunization resources for Patient with a NHS Number of 9876543210, t
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/06b11df3b6e5dac08d0c00155ed01c79.js"></script>
+

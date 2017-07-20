@@ -63,7 +63,7 @@ A sample response is shown below
 
 #### XML Example 1 - Bundle Patient ####
 
-<script src="https://gist.github.com/KevinMayfield/df1eafd6f4b730ba027566219c7fdc83.js"></script>
+
 
 What we have just described is shown in the diagram below. When entered the url we did a Patient Search FHIR Query and the response is called Patient Search FHIR Query Response.
 
@@ -98,7 +98,7 @@ The response from this request is shown below, it is not returned in a FHIR [Bun
 
 #### XML Example 2 - Organization ####
 
-<script src="https://gist.github.com/KevinMayfield/6748097c5003220759292726be05c259.js"></script>
+
 
 The method for returning Practitioner is the similar and an example is shown below in section 2.2
 
@@ -149,13 +149,13 @@ The first example uses the same search parameters we used earlier, we are search
 
 #### Java Example 1 - Patient Search ####
 
-<script src="https://gist.github.com/KevinMayfield/b71d1318d5fddf5012b334c74d25f561.js"></script>
+
 
 The second example would return the same FHIR response but this time the search is using the patients NHS Number.
 
 #### Java Example 2 - Patient Search NHS Number ####
 
-<script src="https://gist.github.com/KevinMayfield/007335b96834d986c18a778cd9b28bbd.js"></script>
+
 
 As previously mentioned these queries have not returned details on the patient GP or Surgery but have provided references to them which allows us to retrieve them.
 
@@ -171,7 +171,7 @@ The example belows shows how this could be done using java.
 
 #### Java Example 3 - Organization and Practitioner Search ####
 
-<script src="https://gist.github.com/KevinMayfield/8a333a1acd31a7460ca4fd508b987156.js"></script>
+
 
 
 <!--
@@ -226,7 +226,7 @@ Using a FHIR API Gateway hides this complexity from the client web developer all
 
 #### AngularJS Example 1 - Web App Client Search ####
 
-<script src="https://gist.github.com/KevinMayfield/88e98c89775ba707dd7a0cf4795b395a.js"></script>
+
 
 <!--
 | SMSP Request | FHIR Patient Search |

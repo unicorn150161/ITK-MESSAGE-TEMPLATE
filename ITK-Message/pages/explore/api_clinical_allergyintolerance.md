@@ -89,4 +89,4 @@ Return all AllergyIntolerance resources for Patient with a NHS Number of 9876543
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/03827faae7031ca963dcc2b15fce450b.js"></script>
+

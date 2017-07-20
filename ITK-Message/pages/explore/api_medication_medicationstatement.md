@@ -90,4 +90,4 @@ Return all MedciationStatement resources for Patient with a NHS Number of 987654
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/9ab94408ef84f46606dbdf236cb9e272.js"></script>
+

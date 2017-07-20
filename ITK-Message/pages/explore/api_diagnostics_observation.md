@@ -107,4 +107,4 @@ Return all Observation resources for Patient with NHS Number of 9876543210, the 
 
 #### 3.2.2. Http Body ###
 
-<script src="https://gist.github.com/KevinMayfield/699d645252f12fb1e48ad5b61d9f6daa.js"></script>
+

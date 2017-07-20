@@ -80,4 +80,4 @@ Return all Encounter resources for Patient with a NHS Number of 9876543210, the 
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/cee6d67c0cd3289b22d3e299c77b85f1.js"></script>
+

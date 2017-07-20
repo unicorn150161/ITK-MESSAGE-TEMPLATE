@@ -72,7 +72,7 @@ To illustrate working with FHIR Medication resources we have listed extracts fro
 
 | PractitionerId | GMP Code | Forename | Surname |
 |-----------|----------|----------|---------|
-| 651dfe43-26d6-49b3-b493-8955415912c7 | G8650149 | Kevin | Swamp |
+
 
 A client system wanting to access data in the MedicationPatient table will first need to obtain the logical Id of the patient. This is achieved by querying the Patient table, we will use the Patient NHS number to do this.
 
@@ -92,7 +92,7 @@ GET [baseUrl]\MedicationStatement?patient=6a7d31db-0bb8-4afa-bf4c-c32d5d4b8487
 <p style="text-align:center;"><img src="images/build/FHIR Bundle MedStatement.jpg" alt="MedicationStatement's in a FHIR Bundle" title="MedicationStatement's in a FHIR Bundle" style="width:40%"></p>
 <br><br>
 
-<script src="https://gist.github.com/KevinMayfield/e896990286f3e730f85026082a0e79c0.js"></script>
+
 
 This returns a FHIR Bundle containing two `MedicationStatement`. This may be enough for a summary screen but if we need to look in detail at a particular drug we can then query the issues using the drug code (medication), for Temazepam  Tablets  20 mg the code (SNOMED Concept Id) is 321153009 (see line 30-34 in the XML sample). The Patient search parameter uses the same logical patient Id as before, note this is present in the MedicationStatement at lines 15-18. If the Patient or Practioner details are required please see details in [Patient Search](build_patient_search.html)
 
@@ -107,7 +107,7 @@ GET [baseUrl]\MedicationOrder?patient=6a7d31db-0bb8-4afa-bf4c-c32d5d4b8487&code=
 
 This results in a FHIR Bundle which contains two `MedicationOrder`. Note: consider including a date parameter to limit the amount of results returned.
 
-<script src="https://gist.github.com/KevinMayfield/a84b28075b571f7537a256b7bcdf9979.js"></script>
+
 
 ## 3. Creating FHIR CareConnect Medication's in code ##
 
@@ -115,6 +115,6 @@ The code below shows how the same three queries can be done in java.
 
 [TODO Validate code]
 
-<script src="https://gist.github.com/KevinMayfield/0b68a287b764a18eebcde9431aec7f7b.js"></script>
+
 
 Java examples for creating FHIR MedicationOrder and MedicationStatement resources based on the MedicationIssues and MedicationPatient tables can be found on [GitHub](https://github.com/nhsconnect/careconnect-java-examples/tree/master/ImplementationGuideExplore).

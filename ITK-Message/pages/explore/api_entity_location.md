@@ -73,4 +73,4 @@ Return all Location resources with a Trust Site code of RTG08, the format of the
 
 #### 3.2.2. Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/715d6af0bef6c5b0365ded1f06b68b57.js"></script>
+
