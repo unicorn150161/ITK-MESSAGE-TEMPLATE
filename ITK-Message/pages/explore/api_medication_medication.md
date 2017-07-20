@@ -64,4 +64,4 @@ Return Medication resource with a logical id of 48496. Replace 'baseUrl' with th
 
 #### 3.2.2 Http Body ####
 
-<script src="https://gist.github.com/KevinMayfield/b2dce41df4ffb395eef568f7769fd086.js"></script>
+
