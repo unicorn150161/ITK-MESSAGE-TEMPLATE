@@ -4,18 +4,18 @@ keywords: design, build, access, security
 tags: [design]
 sidebar: foundations_sidebar
 permalink: design_patterns.html
-summary: "The Design Patterns / Topology demonstrates and describes how various design patterns can influence access, security and use of APIs"
+summary: "The Design Patterns / Topology demonstrates and describes how various design patterns can influence access, security and use of messaging solutions."
 ---
 
 {% include important.html content="All phases outlined below are indicative and subject to on-going review." %}
 
 # Patterns #
 
-This section has been included to emphasise the use of design patterns in to the process of deciding how to use Care Connect APIs within solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
+This section has been included to emphasise the use of design patterns in to the process of deciding how to use ITK Distribution within messaging solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
 
 ## Overview ## 
 
-A “pattern” is a formal way of documenting a solution to a design problem in a particular field of expertise for example in the case of an API sharing clinical information between systems. The information in this section has been reproduced and shortened from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/)
+A “pattern” is a formal way of documenting a solution to a design problem in a particular field of expertise for example in the case of an messaging solution sharing clinical information between systems. The information in this section has been reproduced and shortened from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/)
 - Patterns are not mutually exclusive: many real solutions will use more than one pattern.
 - Solutions may evolve from simpler to more complex patterns over time.
 - Some patterns will be better for specific sharing needs than others – there is no “one size fits all”.
@@ -36,17 +36,13 @@ Below is a list of patterns. If you require more detail please go to [developer.
 - Registry Repository
 - Publish Subscribe
 
-# Patterns and Care Connect APIs #
+# Patterns and ITK Distribution Based Messaging Solutions  #
 
-Considering the design pattern / topology influences how any exposed Care Connect APIs can be used and work within a system. APIs help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. This implementation guide concentrates on [Case Studies](/engage_case_studies.html) to expose and demonstrate how design pattern can use Care Connect APIs to interoperate with other systems, patterns, and level of digital maturity within and between organisations.
+Considering the design pattern / topology influences how any exposed ITK Distribution based messaging solutions can be used and work within a system. Messaging solutions help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. This implementation guide concentrates on [Case Studies](/engage_case_studies.html) to expose and demonstrate how design pattern can use ITK Distribution messaging solutions to interoperate with other systems, patterns, and level of digital maturity within and between organisations.
 
-{% include custom/contribute.html content="Provide design patterns and API usage case studies by getting in touch with careconnect@interopen.org "%}
+# Messaging Solutions Considerations #
 
-# API Considerations #
+Other Messaging Solutions consideration are shown below. Please click on the parts of the Messaging Solutions process to continue your Messaging Solutions creation journey.
 
-Other API consideration are shown below. Please click on the parts of the API process to continue your API creation journey.
-
-{% include custom/provide_api.svg %}
-
-{% include custom/contribute.html content="Get in involved and contribute to the above API considerations careconnect@interopen.org"%}
+{% include custom/provide_messaging.svg %}
 

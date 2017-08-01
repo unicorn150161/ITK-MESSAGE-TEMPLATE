@@ -1,7 +1,7 @@
 entries:
-- title: Care Connect
-  product: Care Connect
-  version: 1.1.0-alpha.0
+- title: ITK FHIR Distribution 
+  product: ITK FHIR Distribution
+  version: 2.0.0-alpha.0
   levels: one
   folders:
 
@@ -12,11 +12,11 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: API Journey
-      url: /overview_api_journey.html
+    - title: The Journey
+      url: /overview_the_journey.html
       output: web
-    - title: Provide APIs
-      url: /overview_api_provide.html
+    - title: Providing A Messaging Solution
+      url: /overview_messaging_provide.html
       output: web
     - title: Guide Versioning
       url: /overview_guide_versioning.html
@@ -28,6 +28,45 @@ entries:
       url: /overview_glossary.html
       output: web
 
+  - title: Messaging Architecture
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+    - title: Bundle Structures
+      url: /explore_bundle_structures.html
+      output: web
+    - title: Interactions
+      url: /explore_interactions.html
+      output: web
+    - title: Messages
+      url: /explore_messages.html
+      output: web
+    - title: Handling Specification
+      url: /explore_hand_spec.html
+      output: web
+    - title: Sender & Receiver Requirements
+      url: /explore_snd&rec_req.html
+      output: web
+    - title: Error Codes
+      url: /explore_error_codes.html
+      output: web
+    - title: Resource Referencing
+      url: /explore_resource_referencing.html
+      output: web
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
+        subfolderitems:
+
+        - title: Overview
+          url: /workflow_overview.html
+          output: web
+     
+
   - title: Case Studies
     output: web
     folderitems:
@@ -37,113 +76,18 @@ entries:
       output: web, pdf
       type: homepage
 
-      subfolders:
-      - title: Case Studies
-        output: web
-        subfolderitems:
+#      subfolders:
+#      - title: Case Studies
+#        output: web
+#        subfolderitems:
 
-        - title: "Case Study Overview"
-          url: /engage_case_studies.html
-          output: web
-        - title: Bristol Connecting Care POC
-          url: /engage_poc_bristolcc.html
-          output: web
-        - title: "University Hospital Southampton"
-          url: /engage_poc_uhscc.html
-          output: web
-        - title: "Michael's Story"
-          url: /engage_michaelsstory.html
-          output: web
+#        - title: Case Study Overview
+#          url: /engage_case_studies.html
+#          output: web
+#        - title: Test Case Study
+#          url: /engage_test_case_study.html
+#          output: web
 
-  - title: Resources
-    output: web
-    folderitems:
-    - title: Overview
-      url: /explore.html
-      output: web
-      subfolders:
-      - title: Clinical
-        output: web
-        subfolderitems:
-          - title: Allergy Intolerance
-            url: /api_clinical_allergyintolerance.html
-            output: web
-          - title: Condition
-            url: /api_clinical_condition.html
-            output: web
-          - title: Procedure
-            url: /api_clinical_procedure.html
-            output: web
-      - title: Diagnostics
-        output: web
-        subfolderitems:
-          - title: Observation
-            url: /api_diagnostics_observation.html
-            output: web
-      - title: Medication
-        output: web
-        subfolderitems:
-          - title: Medication
-            url: /api_medication_medication.html
-            output: web
-          - title: Medication Order
-            url: /api_medication_medicationorder.html
-            output: web
-          - title: Medication Statement
-            url: /api_medication_medicationstatement.html
-            output: web
-          - title: Immunization
-            url: /api_medication_immunization.html
-            output: web
-
-      - title: Individuals &amp; Entities
-        output: web
-        subfolderitems:
-          - title: Location
-            url: /api_entity_location.html
-            output: web
-          - title: Organisation
-            url: /api_entity_organisation.html
-            output: web
-          - title: Patient
-            url: /api_entity_patient.html
-            output: web
-          - title: Practitoner
-            url: /api_entity_practitoner.html
-            output: web
-      - title: Workflow
-        output: web
-        subfolderitems:
-          - title: Encounter
-            url: /api_workflow_encounter.html
-            output: web
-      - title: Foundation
-        output: web
-        subfolderitems:
-        - title: Conformance
-          url: /api_foundation_conformance.html
-          output: web
-        - title: ValueSet
-          url: /api_foundation_valueset.html
-          output: web
-      - title: API Guidance | FHIR&reg;
-        output: web
-        subfolderitems:
-        - title: API Codes
-          url: /explore_api_codes.html
-          output: web
-        - title: Search Parameters
-          url: /explore_search_parameters.html
-          output: web
-        - title: Open Source
-          url: /explore_fhir_open_source_guidance.html
-          output: web
-        - title: Reference
-          url: /explore_reference.html
-          output: web
-        - title: Care Connect Versioning
-          url: /explore_cc_versioning.html
-          output: web
   - title: Design & Build
     output: web
     folderitems:
@@ -156,9 +100,6 @@ entries:
     - title: Exchange Patterns
       url: /design_exchange_patterns.html
       output: web
-    - title: Access
-      url: /design_access.html
-      output: web
     - title: Security
       url: /design_security.html
       output: web
@@ -166,17 +107,17 @@ entries:
       - title: Build
         output: web
         subfolderitems:
-          - title: Patient Search
-            url: /build_patient_search.html
+          - title: Data Mapping
+            url: /build_data_mapping.html
             output: web
-          - title: Clinical | Care Coord
-            url: /build_pcc_clinical.html
+          - title: Constructing Coded Structures
+            url: /build_constructing_coded_structures.html
             output: web
-          - title: Medication | Care Coord
-            url: /build_pcc_medication.html
+          - title: Medication Lists
+            url: /build_medication_lists.html
             output: web
-          - title: Diagnostics | Care Coord
-            url: /build_pcc_diagnostics.html
+          - title: Allergy Lists
+            url: /build_allergy_lists.html
             output: web
   - title: Test
     output: web
@@ -246,7 +187,10 @@ entries:
           url: /support_fhirtools.html
           output: web
         - title: Resource Definitions
-          url: /support_referenceapiservers.html
+          url: /support_referenceFHIR Messaging solutionservers.html
+          output: web
+        - title: 
+          url: /support_referencedocumentation.html
           output: web
 
   - title: Tags

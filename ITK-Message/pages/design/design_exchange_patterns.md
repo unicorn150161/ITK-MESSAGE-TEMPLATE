@@ -9,19 +9,18 @@ summary: "The Exchange Patterns introduce the three ways of exchanging FHIR Reso
 
 {% include custom/search.warnbanner.html %}
 
-## 1. Exchange Paradigms ##
+## Exchange Paradigms ##
 
-This section has been included to show how CareConnectAPI fits in with traditional messaging and document exchanges. Also how these ways of exchanging FHIR resources relates to Information Sharing Patterns.
+This section has been included to show the types of exchange patterns and how these ways of exchanging FHIR resources relates to Information Sharing Patterns.
 
-The exchange patterns are complimentary, each having it's strengths and weaknesses. The best solution will probably to use a combination of pattern.  
+The exchange patterns are complimentary, each having it's strengths and weaknesses. The best solution will probably to use a combination of pattern.
 
-## 2. RESTful API
+**Note: for ITK3 only Messaging or Documents can be used.  **
 
-<div markdown="span" class="alert alert-danger" role="alert"><i class="fa fa-fire"></i>  <b><a href="https://www.hl7.org/fhir/DSTU2/http.html"><b>FHIR RESTful API</b></div>
+## RESTful API
 
-```
+
 Manipulate data held in a remote system while avoiding direct coupling to remote procedures.
-```
 
 Many web services use messages to form their own domain-specific APIs. These messages incorporate common logical commands like Create, Read (i.e. Get), Update, or Delete (CRUD). Also across the health and social care domain, we have many common entities such as Patient, Practitioner, Organisation, etc. For example, many systems will implement an API that allows you to search for Patients by their NHS Number, maybe called GetPatient, QueryPatient, CreatePatient, etc.
 
@@ -99,7 +98,7 @@ This type of interface may also be called as **ResourceAPI** and is useful for r
 **Concerns**
 - Less suitable for large transfers of data between organisations and large systems.
 
-### 2.1. Information Sharing Patterns ###
+### Information Sharing Patterns ###
 
 <table width="80%">
 <tr>
@@ -132,22 +131,7 @@ This type of interface may also be called as **ResourceAPI** and is useful for r
 </tr>
 </table>
 
-### 2.2. NHS FHIR Examples ###
-
-- [CareConnectAPI](explore.html)
-  - [GP Connect Access Record REST](https://nhsconnect.github.io/gpconnect/accessrecord_rest.html)
-- [Vistors and Migrants](https://nhsconnect.github.io/visitor-and-migrants/index.html)
-- [NHS e-Referral Service](https://nhsconnect.github.io/NHS-FHIR-eRS-Integration/Generated/)
-- [NHS National Record Locator Service](https://data.developer.nhs.uk/fhir/nrls-v1-draft-a/Chapter.1.About/index.html)
-
-## 3. Messaging ##
-
-<div markdown="span" class="alert alert-danger" role="alert"><i class="fa fa-fire"></i>  <b><a href="https://www.hl7.org/fhir/DSTU2/messaging.html"><b>FHIR Messaging</b></div>
-
-```
-Send commands, notifications and other information to remote systems while avoiding direct coupling to remote procedures.
-```
-
+## Messaging ##
 There are many scenarios where messaging can't be driven entirely by the service owner. This is especially true in large organisations or in scenarios where health and social care organisations need to exchange data. In these situations we need an API that recognises a set of related resources but does not tie them into specific procedures, this may also be called a **MessagingAPI**.
 
 For example a Referral Request will typically contain supporting information such as a referral letter, images/scans, or other resources relevant to the referral. How the Referral Request and other resources are handled is down to the service. The service handler may block (synchronous) while waiting for a response but typically the response will be generated later (asynchronously).
@@ -161,7 +145,7 @@ For example a Referral Request will typically contain supporting information suc
     </tr>
     <tr>
         <td>
-            FHIR MessageHeader
+            ITK DistributionHeader
         </td>
     </tr>
     <tr>
@@ -186,7 +170,7 @@ For example a Referral Request will typically contain supporting information suc
 - Information Governance concerns especially when used with broadcast pattern.
 - Messages need handling, this may be unnecessary for small transactions
 
-### 3.1. Information Sharing Patterns ###
+### Information Sharing Patterns ###
 
 <table width="80%">
 <tr>
@@ -233,21 +217,9 @@ To store resources in the Repository
 </tr>
 </table>
 
-
-### 3.2. NHS FHIR Examples ###
-
-- [NHS FGM Service](https://nhsconnect.github.io/fgm-risk-indication-service/)
-- [Social Care Assessment, Discharge and Withdrawal](https://nhsconnect.github.io/FHIR-ADW-Messaging/Generated)
-- [Child Health](https://nhsconnect.github.io/Digital-Child-Health/Generated)
-- [Digital Diagnostics Services (Pathology)](https://nhsconnect.github.io/NHS-FHIR-DDS/Generated/)
-
 ## 4. Documents ##
 
-<div markdown="span" class="alert alert-danger" role="alert"><i class="fa fa-fire"></i>  <b><a href="https://www.hl7.org/fhir/DSTU2/documents.html"><b>FHIR Documents</b></div>
-
-```
 Send documents to remote systems while avoiding direct coupling to remote procedures.
-```
 
 A **DocumentAPI** is an extension of the **MessagingAPI** which provides a set of coherent information that is a statement of healthcare information, including clinical observations and services. A document is an immutable set of resources with a fixed presentation that is authored and/or attested by humans, organizations and devices.
 
@@ -278,7 +250,7 @@ A **DocumentAPI** is an extension of the **MessagingAPI** which provides a set o
 **Concerns**
 - More complex to develop
 
-### 4.1. Information Sharing Patterns ###
+### Information Sharing Patterns ###
 
 <table width="80%">
 <tr>
@@ -303,16 +275,4 @@ A **DocumentAPI** is an extension of the **MessagingAPI** which provides a set o
 </tr>
 </table>
 
-### 4.2. NHS FHIR Examples ###
 
-- [GP Connect Composition](https://data.developer.nhs.uk/fhir/candidaterelease-170816-getrecord/Profile.GetRecordQueryResponse-HTMLView/gpconnect-carerecord-composition-1.html)
-- [Transfer of Care eDischarge](https://nhsconnect.github.io/NHS-FHIR-Doc-eDischarge/Generated/)
-
-## 5. Operations
-<div markdown="span" class="alert alert-danger" role="alert"><i class="fa fa-fire"></i>  <b><a href="http://www.hl7.org/fhir/dstu2/operations.html"><b>Operations</b></div>
-
-```
-Execute a procedure on a remote system while avoiding direct coupling.
-```
-
-[TODO]

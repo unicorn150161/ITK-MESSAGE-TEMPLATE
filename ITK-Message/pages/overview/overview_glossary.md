@@ -4,7 +4,7 @@ keywords: abbreviations, definitions, glossaries, terms
 tags: [overview]
 sidebar: overview_sidebar
 permalink: overview_glossary.html
-summary: "Glossary of terms used by Care Connect"
+summary: "Glossary of terms used by NHS Digital Specifications"
 toc: false
 ---
 

@@ -32,7 +32,7 @@ The same choice of testing your design pattern will need to meet your Assurance 
 
 Other API consideration are shown below. Please click on the parts of the API process to continue your API creation journey.
 
-{% include custom/provide_api.svg %}
+{% include custom/provide_messaging.svg %}
 
 {% include custom/contribute.html content="Get involved and contribute to the above API considerations careconnect@interopen.org"%}
 

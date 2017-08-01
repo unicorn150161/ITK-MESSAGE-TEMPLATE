@@ -24,6 +24,6 @@ Access at the Test stage of API development needs careful consideration of the f
 
 Other API consideration are shown below. Please click on the parts of the API process to continue your API creation journey.
 
-{% include custom/provide_api.svg %}
+{% include custom/provide_messaging.svg %}
 
 {% include custom/contribute.html content="Get in involved and contribute to the above API considerations careconnect@interopen.org"%}

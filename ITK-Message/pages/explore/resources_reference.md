@@ -4,7 +4,7 @@ keywords: development Reference
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
 permalink: explore_reference.html
-summary: "Developer Cheat Sheet shortcuts for the <br/>technical build of Care Connect API."
+summary: "Developer Cheat Sheet shortcuts for the <br/>technical build of ITK Distribution."
 ---
 
 {% include custom/search.warnbanner.html %}

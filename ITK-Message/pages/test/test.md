@@ -14,7 +14,7 @@ The Test section contains descriptions of approaches and suggestions for buildin
 | Patterns / Topology | Describes access patterns necessary which influence the access, security and use of APIs. Depending on the pattern or topology of the requesting and responding system. The relationship between the requestor and responder influences the choice of access mechanism, security of payload and access finally build of the system |
 | Access | The access mechanism and of requesting system is influenced by many factors. This section demonstrates the design decisions to consider | 
 | Security | The security of the FHIR payload, access and data at rest are all important design decisions while building an API. | 
-| Test Data | The test data allows the testing of the Care Connect APIs at the individual response level. | 
+| Test Data | The test data allows the testing of the ITK Distributions at the individual response level. | 
 
 Please see or contribute to INTEROPen to support the wider community efforts of providing a completely defined API service.
 
@@ -25,7 +25,7 @@ Please see or contribute to INTEROPen to support the wider community efforts of 
 
 The following diagram explains the elements of APIs allowing a the development of APIs:
 
-{% include custom/provide_api.svg %}
+{% include custom/provide_messaging.svg %}
 
 NHS Digital is contributing to progressing the profile development (see Overview section). Invitations are open for the INTEROPen community to get involved and progress the wider developer ecosystem as defined above. 
 
@@ -34,4 +34,4 @@ NHS Digital is contributing to progressing the profile development (see Overview
 
 This site is structured around Care Connect stakeholders including API users, developers and architects. Please get involved in the journey.
 
-{% include custom/api_overview.svg %}
+{% include custom/messaging_overview.svg %}

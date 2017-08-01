@@ -11,7 +11,7 @@ summary: "The test data expected to be delivered by "
 
 # Test Data within Test #
 
-The test data allows the testing of the Care Connect APIs at the individual response level.
+The test data allows the testing of the ITK Distributions at the individual response level.
 
 {% include note.html content="Provided as an overview" %}
 
@@ -20,6 +20,6 @@ The test data allows the testing of the Care Connect APIs at the individual resp
 
 Other API consideration are shown below. Please click on the parts of the API process to continue your API creation journey.
 
-{% include custom/provide_api.svg %}
+{% include custom/provide_messaging.svg %}
 
 {% include custom/contribute.html content="Get in involved and contribute to the above API considerations careconnect@interopen.org"%}
